@@ -20,9 +20,9 @@ spring:
 # 数据源
   datasource:
       name: test
-      url: jdbc:mysql://liangshanguang.wang:3306/auth?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://ocalhost:3306/auth?useUnicode=true&characterEncoding=utf-8
       username: root
-      password: 19921023wr
+      password: Kbiao8023
       type: com.alibaba.druid.pool.DruidDataSource #使用drudi数据源
       driver-class-name: com.mysql.jdbc.Driver
       filters: stat,wall,log4j
